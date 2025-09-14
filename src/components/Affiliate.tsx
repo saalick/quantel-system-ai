@@ -82,9 +82,16 @@ const Affiliate = () => {
                 size="lg" 
                 variant="accent"
                 className="w-full"
+                asChild
               >
-                 Become an Affiliate
-                <ArrowRight className="ml-2" />
+                <a 
+                  href="https://whop.com/quantel-io/quantel-io-90/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Become an Affiliate
+                  <ArrowRight className="ml-2" />
+                </a>
               </Button>
 
             </div>
